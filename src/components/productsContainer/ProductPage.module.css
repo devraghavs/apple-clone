@@ -1,0 +1,9 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.textContainerStyle{
+    right: 20%;
+    word-wrap: normal;
+}

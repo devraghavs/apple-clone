@@ -1,0 +1,190 @@
+.unit_wrapper {
+  margin: 5px;
+  width: 375px;
+  height: 548px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fbfbfd;
+}
+
+.unit_image_wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.unit_image_wrapper .unit_image_ipad_hero_ipad {
+  width: 100%;
+  height: 100%;
+  transform: scale(2, 1);
+  overflow: hidden;
+}
+
+.unit_copy_wrapper {
+  margin: 5vh;
+  position: relative;
+  flex-grow: 0;
+  z-index: 4;
+  pointer-events: none;
+  text-align: center;
+}
+
+.unit_image_wrapper_dark {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.unit_image_wrapper_dark .unit_image_ipad_hero_ipad_pro {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.5, 1);
+  overflow: hidden;
+}
+
+.unit_copy_wrapper_dark {
+  margin: 5vh;
+  position: relative;
+  z-index: 4;
+  text-align: center;
+}
+
+.theme_dark {
+  color: white;
+}
+
+.unit_image_wrapper_apple_tv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.unit_image_wrapper_apple_tv .unit_image_ipad_apple_tv {
+  width: 100%;
+  height: 100%;
+  transform: scale(2.5, 1);
+  overflow: hidden;
+}
+
+.unit_copy_wrapper_apple_tv {
+  margin-top: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+  z-index: 4;
+  text-align: center;
+}
+
+.link {
+  color: #06c;
+  font-size: 1.15rem;
+  margin: 14px;
+}
+.link a {
+  margin: 0px 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.link a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.subhead {
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.012rem;
+  width: 100%;
+  margin: 5px;
+}
+.heading {
+  font-size: 2rem;
+  margin: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  .unit_wrapper {
+    margin: 0px;
+    height: 93vh;
+    width: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: #fbfbfd;
+  }
+
+  .unit_image_wrapper {
+    position: absolute;
+    bottom: 26vh;
+    left: -10vw;
+    height: 100%;
+    width: 100%;
+  }
+
+  .unit_image_wrapper .unit_image_ipad_hero_ipad {
+    width: 100%;
+    height: 100%;
+    transform: scale(1, 1.5);
+    overflow: hidden;
+  }
+
+  .unit_copy_wrapper {
+    margin-right: auto;
+    margin-left: 45vw;
+    position: relative;
+    flex-grow: 0;
+    z-index: 4;
+    pointer-events: none;
+    margin-top: 30vh;
+    text-align: center;
+  }
+
+  .unit_image_wrapper_dark {
+    position: absolute;
+    bottom: 24vh;
+    left: 100px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .unit_image_wrapper_dark .unit_image_ipad_hero_ipad_pro {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.3, 1.5);
+    overflow: hidden;
+  }
+
+  .unit_copy_wrapper_dark {
+    margin-right: auto;
+    margin-left: 5vw;
+    position: relative;
+    z-index: 4;
+    margin-top: 30vh;
+    text-align: center;
+  }
+
+  .unit_image_wrapper_apple_tv {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+
+  .unit_image_wrapper_apple_tv .unit_image_ipad_apple_tv {
+    width: 100%;
+    height: 100%;
+    transform: scale(2, 1);
+    overflow: hidden;
+  }
+
+  .unit_copy_wrapper_apple_tv {
+    margin-top: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 4;
+    text-align: center;
+  }
+}
